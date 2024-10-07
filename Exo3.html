@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice n°3</title>
+    <style>
+        table
+        {
+            border-collapse: collapse;
+            text-align: center;
+        }
+        img
+        {
+            height: 100%;
+            width: 100%;
+        }
+        td
+        {
+            border: black thin solid;
+            width: 30%;
+        }
+        tr
+        {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td style="background-color:lightblue" colspan="3"><h2 style="color:blue">Mon CV</h2></td>
+        </tr>
+        <tr>
+            <td rowspan="4"><img src="Images/Avatar.jpg"></td>
+            <td colspan="2"><h2 style="color:blue">Etudiant 1ère année BTS SIO</h2></td>
+        </tr>
+        <tr>
+            <td>Civilité</td>
+            <td>Mr/Mme</td>
+        </tr>
+        <tr>
+            <td>Nom et Prénom</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>Ville</td>
+            <td> </td>
+            <!--<td>
+                <select>
+                    <option>France</option>
+                    <option>Espagne</option>
+                    <option>Belgique</option>
+                </select>
+            </td>-->
+        </tr>
+        <tr>
+            <td style="background-color:lightgreen" colspan="3"><h1 style="color:blue">COMPETENCES</h1></td>
+        </tr>
+        <tr>
+            <td style="color:blue" rowspan="2">WEB</td>
+            <td colspan="2">HTML</td>
+        </tr>
+        <tr>
+            <td colspan="2">CSS</td>
+        </tr>
+        <tr>
+            <td style="color:blue" rowspan="2">MOBILE</td>
+            <td colspan="2">Xamarin</td>
+        </tr>
+        <tr>
+            <td colspan="2">Android</td>
+        </tr>
+        <tr>
+            <td style="background-color:lightyellow" colspan="3"><h3>avatar@gmail.com</h3></td>
+        </tr>
+    </table>
+</body>
+</html>
